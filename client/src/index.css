@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Fonts */
+@font-face {
+  font-family: 'CustomFont-Regular';
+  src: url('@assets/7e6a2e30184bb114-s.p_1756129663184.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont-Medium';
+  src: url('@assets/47cbc4e2adbc5db9-s.p_1756129663185.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont-Bold';
+  src: url('@assets/627d916fd739a539-s_1756129663185.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   --background: hsl(0 0% 100%);
   --foreground: hsl(210 25% 7.8431%);
@@ -112,7 +134,7 @@
   }
 
   body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'CustomFont-Regular', 'Roboto', Arial, sans-serif;
     @apply antialiased bg-background text-foreground;
   }
   

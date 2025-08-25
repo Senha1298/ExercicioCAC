@@ -65,7 +65,7 @@ export default function Home() {
             Exército abre inscrições para novos CACs com processo 100% digital
           </h1>
           <div className="text-xs text-[#888] mb-4" data-testid="text-subtitle">
-            Apenas 8 mil vagas estão disponíveis para 2025; inscrições devem ser feitas exclusivamente pela internet
+            Apenas <strong>8 mil vagas</strong> estão disponíveis para 2025; inscrições devem ser feitas <strong>exclusivamente pela internet</strong>
           </div>
 
           {/* Video Embed */}
@@ -100,42 +100,42 @@ export default function Home() {
           {/* Article Body */}
           <div className="text-[15px] text-[#222] leading-[1.6]" data-testid="content-article">
             <div className="mb-4">
-              O Exército Brasileiro anunciou nesta terça-feira (1) a abertura de inscrições para novos Colecionadores, Atiradores Desportivos e Caçadores (CACs) em todo o país. A novidade deste ano é que o processo será realizado de forma totalmente digital, uma medida que visa modernizar e agilizar o cadastramento.
+              O <strong>Exército Brasileiro</strong> anunciou nesta terça-feira (1) a abertura de inscrições para novos <strong>Colecionadores, Atiradores Desportivos e Caçadores (CACs)</strong> em todo o país. A novidade deste ano é que o processo será realizado de forma <strong>totalmente digital</strong>, uma medida que visa modernizar e agilizar o cadastramento.
             </div>
             <div className="mb-4">
-              De acordo com o comunicado oficial, serão disponibilizadas apenas 8 mil vagas para o ano de 2025, o que deve acirrar a concorrência entre os interessados. O coronel João Silva, porta-voz do Exército, ressaltou a importância dessa limitação: "Estabelecemos esse número para garantir um controle efetivo e um acompanhamento adequado dos novos CACs".
+              De acordo com o comunicado oficial, serão disponibilizadas apenas <strong>8 mil vagas</strong> para o ano de <strong>2025</strong>, o que deve acirrar a concorrência entre os interessados. O coronel João Silva, porta-voz do Exército, ressaltou a importância dessa limitação: "Estabelecemos esse número para garantir um <strong>controle efetivo</strong> e um acompanhamento adequado dos novos CACs".
             </div>
             <div className="mb-4">
-              O processo de inscrição, que antes exigia a presença física dos candidatos em unidades militares, agora poderá ser realizado inteiramente pela internet. "Esta mudança representa um avanço significativo em termos de eficiência e acessibilidade", afirmou a major Maria Santos, responsável pelo novo sistema digital.
+              O <strong>processo de inscrição</strong>, que antes exigia a presença física dos candidatos em unidades militares, agora poderá ser realizado <strong>inteiramente pela internet</strong>. "Esta mudança representa um <strong>avanço significativo</strong> em termos de eficiência e acessibilidade", afirmou a major Maria Santos, responsável pelo novo sistema digital.
             </div>
             <div className="mb-4">
               Entre as etapas do processo estão:
             </div>
             <ul className="list-disc pl-5 mb-4">
               <li className="mb-2">
-                Preenchimento de formulário online com dados pessoais
+                <strong>Preenchimento de formulário online</strong> com dados pessoais
               </li>
               <li className="mb-2">
-                Upload de documentos digitalizados
+                <strong>Upload de documentos digitalizados</strong>
               </li>
               <li className="mb-2">
-                Avaliação psicológica virtual
+                <strong>Avaliação psicológica virtual</strong>
               </li>
               <li className="mb-2">
-                Teste teórico online sobre legislação e segurança
+                <strong>Teste teórico online</strong> sobre legislação e segurança
               </li>
             </ul>
             <div className="mb-4">
-              O Exército garante que, apesar da digitalização, os critérios de segurança e rigor na seleção serão mantidos. "A tecnologia nos permite ser mais eficientes sem comprometer a qualidade do processo seletivo", ressaltou o coronel Silva.
+              O Exército garante que, apesar da digitalização, os <strong>critérios de segurança</strong> e rigor na seleção serão mantidos. "A tecnologia nos permite ser mais eficientes sem comprometer a <strong>qualidade do processo seletivo</strong>", ressaltou o coronel Silva.
             </div>
             <div className="mb-4">
-              A medida tem gerado reações diversas. Associações de atiradores esportivos celebraram a modernização, enquanto grupos de controle de armas expressaram preocupação com a possível facilitação do acesso.
+              A medida tem gerado <strong>reações diversas</strong>. Associações de atiradores esportivos celebraram a <strong>modernização</strong>, enquanto grupos de controle de armas expressaram preocupação com a possível facilitação do acesso.
             </div>
             <div className="mb-4">
-              O prazo para inscrições vai de 15 de julho a 15 de agosto de 2025. Os interessados devem acessar o site oficial do Exército para mais informações e para realizar o cadastro.
+              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 15 de agosto de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército</strong> para mais informações e para realizar o cadastro.
             </div>
             <div className="mb-4">
-              Com a alta demanda esperada e o número limitado de vagas, as autoridades recomendam que os interessados não deixem para a última hora. "As inscrições serão encerradas assim que atingirmos o limite de 8 mil candidatos aprovados", alertou a major Santos.
+              Com a <strong>alta demanda esperada</strong> e o número limitado de vagas, as autoridades recomendam que os interessados <strong>não deixem para a última hora</strong>. "As inscrições serão encerradas assim que atingirmos o <strong>limite de 8 mil candidatos aprovados</strong>", alertou a major Santos.
             </div>
             <div className="flex justify-center my-6">
               <a className="bg-[#0a2344] hover:bg-[#163a6b] text-white font-bold px-8 py-3 rounded-full text-lg shadow transition duration-200 flex items-center space-x-2" href="#" data-testid="button-cta-inscricao">
