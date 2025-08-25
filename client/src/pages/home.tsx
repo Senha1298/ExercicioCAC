@@ -69,13 +69,18 @@ export default function Home() {
 
           {/* Video Embed */}
           <div className="w-full max-w-[520px] h-[220px] rounded-lg flex flex-col items-center justify-center mb-2 relative overflow-hidden mx-auto">
-            <vturb-smartplayer id="vid-68ac63f6dc53cd15f0fe865c" style={{display: 'block', margin: '0 auto', width: '100%'}} data-testid="video-player"></vturb-smartplayer>
+            <div 
+              dangerouslySetInnerHTML={{
+                __html: '<vturb-smartplayer id="vid-68ac63f6dc53cd15f0fe865c" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>'
+              }}
+              data-testid="video-player"
+            ></div>
           </div>
 
           <div className="flex items-center justify-between text-xs text-[#888] mb-4 flex-wrap">
             <div className="mb-2 md:mb-0" data-testid="text-author-date">
               Redação SBT News |<br/>
-              01/07/2025 às 14:01 - Atualizado em 01/07/2025 às 21h10
+              24/08/2025 às 14:01 - Atualizado em 25/08/2025 às 07h10
             </div>
             <div className="flex space-x-3">
               <a className="text-[#222] hover:text-[#0a2344]" href="#" data-testid="link-share-facebook">
@@ -99,10 +104,7 @@ export default function Home() {
           {/* Article Body */}
           <div className="text-[15px] text-[#222] leading-[1.6]" data-testid="content-article">
             <div className="mb-4">
-              O <strong>Exército Brasileiro</strong> anunciou nesta terça-feira (1) a abertura de inscrições para novos <strong>Colecionadores, Atiradores Desportivos e Caçadores (CACs)</strong> em todo o país. A novidade deste ano é que o processo será realizado de forma <strong>totalmente digital</strong>, uma medida que visa modernizar e agilizar o cadastramento.
-            </div>
-            <div className="mb-4">
-              De acordo com o comunicado oficial, serão disponibilizadas apenas <strong>8 mil vagas</strong> para o ano de <strong>2025</strong>, o que deve acirrar a concorrência entre os interessados. O coronel João Silva, porta-voz do Exército, ressaltou a importância dessa limitação: "Estabelecemos esse número para garantir um <strong>controle efetivo</strong> e um acompanhamento adequado dos novos CACs".
+              O <strong>Exército Brasileiro</strong> anunciou nesta sexta-feira (22) a abertura de inscrições para novos <strong>Colecionadores, Atiradores Desportivos e Caçadores (CACs)</strong> em todo o país. A novidade deste ano é que o processo será realizado de forma <strong>totalmente digital</strong>, uma medida que visa modernizar e agilizar o cadastramento.
             </div>
             <div className="mb-4">
               O <strong>processo de inscrição</strong>, que antes exigia a presença física dos candidatos em unidades militares, agora poderá ser realizado <strong>inteiramente pela internet</strong>. "Esta mudança representa um <strong>avanço significativo</strong> em termos de eficiência e acessibilidade", afirmou a major Maria Santos, responsável pelo novo sistema digital.
@@ -128,19 +130,14 @@ export default function Home() {
               O Exército garante que, apesar da digitalização, os <strong>critérios de segurança</strong> e rigor na seleção serão mantidos. "A tecnologia nos permite ser mais eficientes sem comprometer a <strong>qualidade do processo seletivo</strong>", ressaltou o coronel Silva.
             </div>
             <div className="mb-4">
-              A medida tem gerado <strong>reações diversas</strong>. Associações de atiradores esportivos celebraram a <strong>modernização</strong>, enquanto grupos de controle de armas expressaram preocupação com a possível facilitação do acesso.
+              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 15 de agosto de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército no botão abaixo</strong> para mais informações e para realizar o cadastro.
             </div>
-            <div className="mb-4">
-              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 15 de agosto de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército</strong> para mais informações e para realizar o cadastro.
-            </div>
-            <div className="mb-4">
-              Com a <strong>alta demanda esperada</strong> e o número limitado de vagas, as autoridades recomendam que os interessados <strong>não deixem para a última hora</strong>. "As inscrições serão encerradas assim que atingirmos o <strong>limite de 8 mil candidatos aprovados</strong>", alertou a major Santos.
-            </div>
+
             <div className="flex justify-center my-6">
               <a className="bg-[#0a2344] hover:bg-[#163a6b] text-white font-bold px-8 py-3 rounded-full text-lg shadow transition duration-200 flex items-center space-x-2" href="#" data-testid="button-cta-inscricao">
                 <i className="fas fa-user-plus"></i>
                 <span>
-                  Acesse o site oficial para inscrição
+                  Realizar inscrição CAC
                 </span>
               </a>
             </div>
@@ -245,135 +242,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* News item 6 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-6">
-            <img alt="Imagem de reunião entre autoridades da Polícia Federal e Exército, mesa de negociações" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/LfoiqEHosnxIayzTq26Y2DkMZ6TEhfkutyvBbmhe9U0vvCdqA/out-0.png" width="80" data-testid="img-news-6"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-6">
-                PF e Exército alinham transição de fiscalização dos CACs
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-6">
-                Encontro definiu etapas para transferência de responsabilidades
-              </div>
-            </div>
-          </div>
-
-          {/* News item 7 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-7">
-            <img alt="Foto de caçador em floresta, vestindo roupas camufladas e segurando rifle" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/w01lk4eeuHhlXEgMwZdEGYRv7fJbkkddrtkE9gC2SL8uvCdqA/out-0.png" width="80" data-testid="img-news-7"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-7">
-                Caçadores relatam dificuldades com novas exigências da PF
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-7">
-                Documentação e fiscalização mais rigorosa preocupam praticantes
-              </div>
-            </div>
-          </div>
-
-          {/* News item 8 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-8">
-            <img alt="Imagem de munições e acessórios de armas em bancada de loja" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/17OXR2xZ1RaWIxdST8BB7cIkxre2isUZoew7AwtWsYevvCdqA/out-0.png" width="80" data-testid="img-news-8"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-8">
-                Lojas de armas se adaptam a novas regras de comercialização
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-8">
-                Empresários investem em treinamento e atualização de sistemas
-              </div>
-            </div>
-          </div>
-
-          {/* News item 9 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-9">
-            <img alt="Foto de manifestantes segurando cartazes contra armas, protesto em rua" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/ZSeUtD8miHRRYiylXxcK1wvLeXc5gif3X9c5HD9AGhTuvCdqA/out-0.png" width="80" data-testid="img-news-9"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-9">
-                Protestos marcam debate sobre controle de armas no Congresso
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-9">
-                Grupos favoráveis e contrários às mudanças se manifestam em Brasília
-              </div>
-            </div>
-          </div>
-
-          {/* News item 10 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-10">
-            <img alt="Imagem de policial federal analisando documentos em escritório" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/0OqaK5tiEfRefpkvWowwy7wGq3TMTzvX7QHgbG1vREvuvCdqA/out-0.png" width="80" data-testid="img-news-10"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-10">
-                PF lança portal para facilitar acesso de CACs a serviços
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-10">
-                Plataforma digital promete agilizar processos e reduzir filas
-              </div>
-            </div>
-          </div>
-
-          {/* News item 11 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-11">
-            <img alt="Foto de policial federal em frente a delegacia, viatura ao fundo" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/48uMogpiSUbGNpks82efROCrUYUX3GpPeNVF8D45Xx5uvCdqA/out-0.png" width="80" data-testid="img-news-11"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-11">
-                Delegacias da PF recebem reforço para atender demanda de CACs
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-11">
-                Novos servidores e treinamento específico para atendimento especializado
-              </div>
-            </div>
-          </div>
-
-          {/* News item 12 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-12">
-            <img alt="Imagem de armas e munições em laboratório de perícia" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/C9d4ZqMmkP5bMZKfj6pLYoVtosqdwq5SB6eFJqT2ZV43XhOVA/out-0.png" width="80" data-testid="img-news-12"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-12">
-                Peritos analisam impacto das novas regras para armas de fogo
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-12">
-                Especialistas apontam avanços e desafios na fiscalização
-              </div>
-            </div>
-          </div>
-
-          {/* News item 13 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-13">
-            <img alt="Foto de atirador esportivo em estande de tiro, alvo à frente" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/2QInmisaeFXrO6oaVStfhieBf2f6bhGwOyvyRPqPhTT5eVoTF/out-0.png" width="80" data-testid="img-news-13"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-13">
-                Estandes de tiro registram aumento na procura após mudanças
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-13">
-                Praticantes buscam regularização e treinamentos para se adequar às normas
-              </div>
-            </div>
-          </div>
-
-          {/* News item 14 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-14">
-            <img alt="Imagem de reunião de comissão no Congresso, deputados debatendo" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/aCqlGJuoPe0gWSUAMqA1qEu5lc85M6a5DVaUWCBejAj3XhOVA/out-0.png" width="80" data-testid="img-news-14"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-14">
-                Comissão do Congresso aprova relatório sobre controle de armas
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-14">
-                Texto segue para votação em plenário nas próximas semanas
-              </div>
-            </div>
-          </div>
-
-          {/* News item 15 */}
-          <div className="flex items-start space-x-2" data-testid="news-item-15">
-            <img alt="Foto de policial federal em treinamento, campo de tiro ao ar livre" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/jQKt0b11hGYfZi6XfLUgcqMjgWSZ9aoaqiLQtZ6uJfSuvCdqA/out-0.png" width="80" data-testid="img-news-15"/>
-            <div>
-              <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-15">
-                Polícia Federal intensifica treinamentos para fiscalização de CACs
-              </div>
-              <div className="text-xs text-[#888]" data-testid="text-news-description-15">
-                Novos protocolos e cursos para agentes em todo o país
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
