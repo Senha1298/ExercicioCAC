@@ -74,10 +74,10 @@ export default function Home() {
           </div>
 
           {/* Video Embed */}
-          <div className="w-full max-w-[520px] h-[220px] rounded-lg flex flex-col items-center justify-center mb-2 relative overflow-hidden mx-auto">
+          <div className="w-full max-w-[520px] mb-4 mx-auto">
             <div 
               dangerouslySetInnerHTML={{
-                __html: '<vturb-smartplayer id="vid-68ac63f6dc53cd15f0fe865c" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>'
+                __html: '<vturb-smartplayer id="vid-68ac63f6dc53cd15f0fe865c" style="display: block; margin: 0 auto; width: 100%; height: auto;"></vturb-smartplayer>'
               }}
               data-testid="video-player"
             ></div>
