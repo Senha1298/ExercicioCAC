@@ -134,7 +134,7 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center my-6">
-              <a className="bg-[#0a2344] hover:bg-[#163a6b] text-white font-bold px-8 py-3 rounded-full text-lg shadow transition duration-200 flex items-center space-x-2" href="#" data-testid="button-cta-inscricao">
+              <a className="bg-[#0a2344] hover:bg-[#163a6b] text-white font-bold px-8 py-3 rounded text-lg shadow transition duration-200 flex items-center space-x-2" href="#" data-testid="button-cta-inscricao">
                 <i className="fas fa-user-plus"></i>
                 <span>
                   Realizar inscrição CAC
