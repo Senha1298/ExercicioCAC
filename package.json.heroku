@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "heroku-postbuild": "npm run build && esbuild server/production.ts --platform=node --packages=external --bundle --format=esm --outdir=dist"
+  }
+}
