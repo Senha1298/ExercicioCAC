@@ -185,7 +185,7 @@ export default function Home() {
         <div className="flex flex-col space-y-3">
           {/* News item 1 */}
           <div className="flex items-start space-x-2" data-testid="news-item-1">
-            <img alt="Foto de Alckmin em visita ao México, reunião com autoridades" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" src="https://replicate.delivery/xezq/QDSaJapxQgaIDpRfvANKe9EfpmnvdqrLTUuZ5vDKMYSpUCdqA/out-0.png" data-testid="img-news-1"/>
+            <img alt="Foto de Alckmin em visita ao México, reunião com autoridades" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" src="https://www.infomoney.com.br/wp-content/uploads/2025/03/2025-03-06T225535Z_1_LYNXNPEL25111_RTROPTP_4_CLIMATE-COP29.jpg?quality=50&strip=all" data-testid="img-news-1"/>
             <div>
               <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-1">
                 Alckmin visita o México para ampliar relações comerciais em meio ao tarifação dos EUA
@@ -198,7 +198,7 @@ export default function Home() {
 
           {/* News item 2 */}
           <div className="flex items-start space-x-2" data-testid="news-item-2">
-            <img alt="Imagem de Lula discursando em evento político, fundo com bandeira do Brasil" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/K2gTxoYXxK6sCZ9FfalABOGWlbUQ3R9bcbuhkYqi8r67rQnKA/out-0.png" width="80" data-testid="img-news-2"/>
+            <img alt="Imagem de Lula discursando em evento político, fundo com bandeira do Brasil" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://assets.brasildefato.com.br/2024/09/image_processing20221116-25360-u8pj19.jpeg" width="80" data-testid="img-news-2"/>
             <div>
               <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-2">
                 Lula defende maior controle de armas em novo pronunciamento
@@ -211,7 +211,7 @@ export default function Home() {
 
           {/* News item 3 */}
           <div className="flex items-start space-x-2" data-testid="news-item-3">
-            <img alt="Foto de policiais federais em operação, viaturas e agentes com coletes" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/Z8kSroLznH6UCp0XpgfWztVkd7X2RyMzzf8tZocCsik3XhOVA/out-0.png" width="80" data-testid="img-news-3"/>
+            <img alt="Foto de policiais federais em operação, viaturas e agentes com coletes" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://www.cartacapital.com.br/wp-content/uploads/2025/04/64ba1d0f-c6f4-427a-bf0a-f565de996509.jpeg" width="80" data-testid="img-news-3"/>
             <div>
               <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-3">
                 Polícia Federal realiza operação contra tráfico de armas em três estados
@@ -224,7 +224,7 @@ export default function Home() {
 
           {/* News item 4 */}
           <div className="flex items-start space-x-2" data-testid="news-item-4">
-            <img alt="Imagem de armas apreendidas em mesa, munições e acessórios ao redor" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/5L7ZO9uqKFYBId9S0gww5W61fUfQTWEFDMMtaTvuinJ3XhOVA/out-0.png" width="80" data-testid="img-news-4"/>
+            <img alt="Imagem de armas apreendidas em mesa, munições e acessórios ao redor" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://www.gov.br/pf/pt-br/assuntos/noticias/2025/02/pf-combate-seguranca-privada-clandestina/whatsapp-image-2024-10-27-at-13-13-55.jpeg/@@images/c5953820-6682-49c0-b2c5-847744f14586.jpeg" width="80" data-testid="img-news-4"/>
             <div>
               <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-4">
                 Exército divulga balanço de armas apreendidas no primeiro semestre
@@ -237,7 +237,7 @@ export default function Home() {
 
           {/* News item 5 */}
           <div className="flex items-start space-x-2" data-testid="news-item-5">
-            <img alt="Foto de atirador esportivo em competição, alvo ao fundo" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://replicate.delivery/xezq/siEmmbAyWVY3MFfnjZcueScXewOFLPnWdagCwAPNuSfdfK0pC/out-0.png" width="80" data-testid="img-news-5"/>
+            <img alt="Foto de atirador esportivo em competição, alvo ao fundo" className="w-20 h-20 md:w-14 md:h-14 rounded object-cover" height="80" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXdhsaqshsPyCME_TAFXLDcCa68nJZ3bL7Kg&s" width="80" data-testid="img-news-5"/>
             <div>
               <div className="font-bold text-sm text-[#222] leading-tight" data-testid="text-news-title-5">
                 Atiradores esportivos comentam novas regras para CACs
