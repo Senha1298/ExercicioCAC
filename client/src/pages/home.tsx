@@ -63,7 +63,7 @@ export default function Home() {
           <h1 className="text-2xl md:text-[1.6rem] font-bold text-[#222] leading-tight mb-2" data-testid="text-title">
             Exército abre inscrições para novos CACs com processo 100% digital
           </h1>
-          <div className="text-xs text-[#888] mb-4" data-testid="text-subtitle">
+          <div className="text-[15px] text-[#222] leading-[1.6] mb-4" data-testid="content-article">
             Apenas <strong>8 mil vagas</strong> estão disponíveis para 2025; inscrições devem ser feitas <strong>exclusivamente pela internet</strong>
           </div>
 
