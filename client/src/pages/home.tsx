@@ -2,19 +2,18 @@ import { useEffect } from 'react';
 
 export default function Home() {
   useEffect(() => {
-    // Video player placeholder script
-    const playerElement = document.getElementById('vid-68ac63f6dc53cd15f0fe865c');
-    if (playerElement) {
-      playerElement.innerHTML = `
-        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-          <div style="text-align: center; color: white;">
-            <i class="fas fa-play-circle" style="font-size: 48px; margin-bottom: 10px;"></i>
-            <div style="font-size: 14px; font-weight: bold;">Video Player</div>
-            <div style="font-size: 12px; opacity: 0.8;">Content loading...</div>
-          </div>
-        </div>
-      `;
-    }
+    // Load vturb-smartplayer script
+    const script = document.createElement("script");
+    script.src = "https://scripts.converteai.net/958d3e51-302a-4ad3-94a4-d981f2f38c3f/players/68ac63f6dc53cd15f0fe865c/v4/player.js";
+    script.async = true;
+    document.head.appendChild(script);
+
+    // Cleanup function to remove script if component unmounts
+    return () => {
+      if (document.head.contains(script)) {
+        document.head.removeChild(script);
+      }
+    };
   }, []);
 
   return (
@@ -70,7 +69,7 @@ export default function Home() {
 
           {/* Video Embed */}
           <div className="w-full max-w-[520px] h-[220px] rounded-lg flex flex-col items-center justify-center mb-2 relative overflow-hidden mx-auto">
-            <div id="vid-68ac63f6dc53cd15f0fe865c" style={{display: 'block', margin: '0 auto', width: '100%'}} data-testid="video-player"></div>
+            <vturb-smartplayer id="vid-68ac63f6dc53cd15f0fe865c" style={{display: 'block', margin: '0 auto', width: '100%'}} data-testid="video-player"></vturb-smartplayer>
           </div>
 
           <div className="flex items-center justify-between text-xs text-[#888] mb-4 flex-wrap">
