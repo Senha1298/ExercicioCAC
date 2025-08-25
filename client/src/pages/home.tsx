@@ -136,7 +136,7 @@ export default function Home() {
               O Exército garante que, apesar da digitalização, os <strong>critérios de segurança</strong> e rigor na seleção serão mantidos. "A tecnologia nos permite ser mais eficientes sem comprometer a <strong>qualidade do processo seletivo</strong>", ressaltou o coronel Silva.
             </div>
             <div className="mb-4">
-              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 15 de agosto de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército no botão abaixo</strong> para mais informações e para realizar o cadastro.
+              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 15 de setembro de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército no botão abaixo</strong> para mais informações e para realizar o cadastro.
             </div>
 
             <div className="flex justify-center my-6">
