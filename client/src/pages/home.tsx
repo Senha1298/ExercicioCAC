@@ -113,7 +113,7 @@ export default function Home() {
               O <strong>Exército Brasileiro</strong> anunciou nesta sexta-feira (22) a abertura de inscrições para novos <strong>Colecionadores, Atiradores Desportivos e Caçadores (CACs)</strong> em todo o país. A novidade deste ano é que o processo será realizado de forma <strong>totalmente digital</strong>, uma medida que visa modernizar e agilizar o cadastramento.
             </div>
             <div className="mb-4">
-              O <strong>processo de inscrição</strong>, que antes exigia a presença física dos candidatos em unidades militares, agora poderá ser realizado <strong>inteiramente pela internet</strong>. A facilitação deste processo pelo governo é motivada pelo <strong>déficit orçamentário</strong> atual, visando aumentar a <strong>arrecadação de impostos</strong> provenientes das compras de armamento pelos novos CACs. "Esta mudança representa um <strong>avanço significativo</strong> em termos de eficiência e acessibilidade", afirmou a major Maria Santos, responsável pelo novo sistema digital.
+              O <strong>processo de inscrição</strong>, que antes exigia a presença física dos candidatos em unidades militares, agora poderá ser realizado <strong>inteiramente pela internet</strong>. A facilitação deste processo pelo governo é motivada pelo <strong>déficit orçamentário</strong> atual, visando aumentar a <strong>arrecadação de impostos</strong> provenientes das compras de armamento pelos novos CACs. "Esta mudança representa um <strong>avanço significativo</strong> em termos de eficiência e acessibilidade".
             </div>
             <div className="mb-4">
               Entre as etapas do processo estão:
