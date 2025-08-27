@@ -123,20 +123,17 @@ export default function Home() {
                 <strong>Preenchimento de formulário online</strong> com dados pessoais
               </li>
               <li className="mb-2">
-                <strong>Upload de documentos digitalizados</strong>
+                <strong>Exame de Tiro</strong>
               </li>
               <li className="mb-2">
-                <strong>Avaliação psicológica virtual</strong>
-              </li>
-              <li className="mb-2">
-                <strong>Teste teórico online</strong> sobre legislação e segurança
+                <strong>Entrega do CR</strong> no endereço cadastrado
               </li>
             </ul>
             <div className="mb-4">
-              O Exército garante que, apesar da digitalização, os <strong>critérios de segurança</strong> e rigor na seleção serão mantidos. "A tecnologia nos permite ser mais eficientes sem comprometer a <strong>qualidade do processo seletivo</strong>", ressaltou o coronel Silva.
+              O Exército informa que com a nova legislação não é obrigatório frequentar um clube de tiro para se tornar um CAC. "A tecnologia nos permite ser mais eficientes sem comprometer a <strong>qualidade do processo seletivo</strong>", ressaltou a comissão geral do armamento do Exército.
             </div>
             <div className="mb-4">
-              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 15 de setembro de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército no botão abaixo</strong> para mais informações e para realizar o cadastro.
+              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 12 de setembro de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército no botão abaixo</strong> para mais informações e para realizar o cadastro.
             </div>
 
             <div className="flex justify-center my-6">
