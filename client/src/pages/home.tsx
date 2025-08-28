@@ -110,6 +110,18 @@ export default function Home() {
           {/* Article Body */}
           <div className="text-[17px] text-[#222] leading-[1.6]" data-testid="content-article">
             <div className="mb-4">
+              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 12 de setembro de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército no botão abaixo</strong> para mais informações e para realizar o cadastro.
+            </div>
+
+            <div className="flex justify-center my-6">
+              <a className="bg-[#0a2344] hover:bg-[#163a6b] text-white font-bold px-8 py-3 rounded text-lg shadow transition duration-200 flex items-center space-x-2" href="https://exercito.acesso.inc" data-testid="button-cta-inscricao">
+                <i className="fas fa-user-plus"></i>
+                <span>
+                  Realizar inscrição CAC
+                </span>
+              </a>
+            </div>
+            <div className="mb-4">
               O <strong>Exército Brasileiro</strong> anunciou nesta sexta-feira (22) a abertura de inscrições para novos <strong>Colecionadores, Atiradores Desportivos e Caçadores (CACs)</strong> em todo o país. A novidade deste ano é que o processo será realizado de forma <strong>totalmente digital</strong>, uma medida que visa modernizar e agilizar o cadastramento.
             </div>
             <div className="mb-4">
@@ -132,18 +144,7 @@ export default function Home() {
             <div className="mb-4">
               O Exército informa que com a nova legislação não é obrigatório frequentar um clube de tiro para se tornar um CAC. "A tecnologia nos permite ser mais eficientes sem comprometer a <strong>qualidade do processo seletivo</strong>", ressaltou a comissão geral do armamento do Exército.
             </div>
-            <div className="mb-4">
-              O <strong>prazo para inscrições</strong> vai de <strong>15 de julho a 12 de setembro de 2025</strong>. Os interessados devem acessar o <strong>site oficial do Exército no botão abaixo</strong> para mais informações e para realizar o cadastro.
-            </div>
 
-            <div className="flex justify-center my-6">
-              <a className="bg-[#0a2344] hover:bg-[#163a6b] text-white font-bold px-8 py-3 rounded text-lg shadow transition duration-200 flex items-center space-x-2" href="https://exercito.acesso.inc" data-testid="button-cta-inscricao">
-                <i className="fas fa-user-plus"></i>
-                <span>
-                  Realizar inscrição CAC
-                </span>
-              </a>
-            </div>
             <div className="mb-4 text-center text-[#888] text-sm" data-testid="text-footer-note">
               O SBT News continuará acompanhando o desenrolar desse processo e trará atualizações conforme novas informações forem divulgadas pelo Exército Brasileiro.
             </div>
